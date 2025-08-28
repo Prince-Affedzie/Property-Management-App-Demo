@@ -46,6 +46,12 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 px-4">
       <ToastContainer />
+      
+      {/* Demo Indicator */}
+      <div className="absolute top-4 right-4 bg-yellow-500 text-white px-4 py-2 rounded-full shadow-lg font-semibold text-sm">
+        DEMO
+      </div>
+      
       <div className="w-full max-w-md space-y-6">
         
         {/* Title - Make it pop and positioned with breathing room */}
@@ -108,8 +114,15 @@ export default function LoginPage() {
                Contact Admin
             </a>
           </p>
+          
+          {/* Powered by Pros Technologies */}
+          <div className="mt-8 pt-4 border-t border-gray-200">
+            <p className="text-center text-xs text-gray-500">
+              Powered by <a href="https://prostechnologies.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Pros Technologies</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
-}  
+}
