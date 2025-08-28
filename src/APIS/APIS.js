@@ -2,7 +2,7 @@ import axios from "axios"
 //https://orange-winner-q7vw64jp5gjq246qw-5000.app.github.dev/
 //https://rental-vehicle-app-hfvqh.ondigitalocean.app/
 //http://localhost:5000
-const API = axios.create({baseURL: 'https://rental-vehicle-app-hfvqh.ondigitalocean.app/',withCredentials:true})
+const API = axios.create({baseURL:process.env.REACT_APP_BACKEND_URL,withCredentials:true})
 export const login =(data)=> API.post("/api/login",data)
 export const fetchProfileInfo = ()=>API.get('/api/view/profile_info')
 export const getAllUsers = ()=>API.get('/api/get/all_users')
