@@ -54,7 +54,7 @@ export default function LoginPage() {
       
       <div className="w-full max-w-md space-y-6">
         
-        {/* Title - Make it pop and positioned with breathing room */}
+       
         <h2 className="text-4xl font-bold text-center text-white drop-shadow-md">
           Property Tracking System
         </h2>
