@@ -117,7 +117,7 @@ export default function LoginPage() {
           
           {/* Powered by Pros Technologies */}
           <div className="mt-8 pt-4 border-t border-gray-200">
-            <p className="text-center text-xs text-gray-500">
+            <p className="text-center text-sm text-gray-500">
               Powered by <a href="https://prostechnologies.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Pros Technologies</a>
             </p>
           </div>
